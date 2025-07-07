@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creativity | Mohamed Khelifi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        /* Grid Styles */
+        .creativity-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+        
+        .grid-section {
+            margin-bottom: 5rem;
+        }
+        
+        .grid-section h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid var(--primary);
+            display: inline-block;
+        }
+        
+        .creative-card {
+            background: rgba(15, 15, 15, 0.7);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .creative-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 240, 255, 0.1);
+        }
+        
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+        
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        .art-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        
+        .creative-content {
+            padding: 1.5rem;
+        }
+        
+        .creative-date {
+            color: var(--primary);
+            margin: 0.5rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .creative-link {
+            display: inline-block;
+            margin-top: 1rem;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .creative-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <a href="index.html" class="logo">MK<span>.</span></a>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="skills.html">Skills</a>
+                <a href="experience.html">Experience</a>
+                <a href="projects.html">Projects</a>
+                <a href="education.html">Education</a>
+                <a href="creative.html" class="active">Creativity</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+
+    
+
+    <!-- Main Content -->
+    <section class="container">
+
+
+        <div class="grid-section">
+            <h2><i class="fas fa-paint-brush"></i> Digital Art</h2>
+            <div class="creativity-grid">
+                <!-- Art 1 -->
+                <div class="creative-card">
+                    <img src="assets/images/kasa.png" alt="Artwork Title" class="art-image">
+                    <div class="creative-content">
+                        <h3>Mikasa Ackerman</h3>
+                        <div class="creative-date">
+                            <i class="far fa-calendar-alt"></i> Posted Month 2023
+                        </div>
+                        <p>Mikasa Ackerman from Attack On Titan.</p>
+                        <a href="https://instagram.com/yourartaccount" class="creative-link" target="_blank">
+                            <i class="fab fa-instagram"></i> View on Instagram
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Art 2 -->
+                <div class="creative-card">
+                    <img src="assets/images/mika.png" alt="Artwork Title" class="art-image">
+                    <div class="creative-content">
+                        <h3>Imagination</h3>
+                        <div class="creative-date">
+                            <i class="far fa-calendar-alt"></i> Posted Month 2023
+                        </div>
+                        <p>Fictional character imagination.</p>
+                        <a href="https://instagram.com/hamodasart" class="creative-link" target="_blank">
+                            <i class="fab fa-instagram"></i> View on Instagram
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        
+        <!-- Guitar Videos Section -->
+<div class="grid-section">
+    <h2><i class="fas fa-guitar"></i> Guitar Covers</h2>
+    <div class="creativity-grid">
+        <!-- Video 1 -->
+        <div class="creative-card" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('assets/images/brazil.png'); background-size: cover; background-position: center;">
+            <div class="creative-content">
+                <h3>Sunset Lover - Guitar Cover.</h3>
+                <div class="creative-date">
+                    <i class="far fa-calendar-alt"></i> Published May 2023
+                </div>
+                <p>First ever Guitar cover made by 17 Years old Hamoda.</p>
+                <a href="https://www.youtube.com/watch?v=5eT1QnL9Cco&ab_channel=Hamodeestuff" class="creative-link" target="_blank">
+                    <i class="fab fa-youtube"></i> Watch on YouTube
+                </a>
+            </div>
+        </div>
+        
+        <!-- Video 2 -->
+        <div class="creative-card" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('assets/images/prettyguy.png'); background-size: cover; background-position: center;">
+            <div class="creative-content">
+                <h3>Where's my love - Guitar Cover</h3>
+                <div class="creative-date">
+                    <i class="far fa-calendar-alt"></i> Published July 2023
+                </div>
+                <p>Lovely music gifted to the lemon girl in the occasion of her birthday.</p>
+                <a href="https://www.youtube.com/watch?v=Rc1uADkqKcY&ab_channel=Hamodeestuff" class="creative-link" target="_blank">
+                    <i class="fab fa-youtube"></i> Watch on YouTube
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* Add this to your existing CSS */
+    .creative-card {
+        position: relative;
+        color: white;
+        min-height: 300px;
+        display: flex;
+        align-items: flex-end;
+    }
+    
+    .creative-content {
+        position: relative;
+        z-index: 2;
+        width: 100%;
+    }
+    
+    /* Remove the old video-container styles if they exist */
+</style>
+        
+        <!-- Art Posts Section -->
+        
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="skills.html">Skills</a>
+                <a href="experience.html">Experience</a>
+                <a href="projects.html">Projects</a>
+                <a href="education.html">Education</a>
+                <a href="creative.html" class="active">Creativity</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="https://youtube.com/hamodeestuff"><i class="fab fa-youtube"></i></a>
+                <a href="https://instagram.com/hamodasart"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p class="copyright">© 2024 Mohamed Khelifi. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
